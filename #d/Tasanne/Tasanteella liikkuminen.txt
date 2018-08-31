@@ -1,0 +1,25 @@
+  LISÄÄ TÄMÄ FPS CONTROLLER SCRIPTIIN JA ROCKMOVER TASANTEESEEN
+
+
+
+
+
+    void OnTriggerStay(Collider other)
+        {
+
+            if (other.gameObject.tag == "platform")
+            {
+                Debug.Log("Nyt Vaihtuu Controlli");
+                transform.parent = other.transform;
+
+            }
+        }
+
+        void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.tag == "platform")
+            {
+                transform.parent = null;
+
+            }
+        }

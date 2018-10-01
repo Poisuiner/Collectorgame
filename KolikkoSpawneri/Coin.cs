@@ -13,7 +13,6 @@ public class Coin : MonoBehaviour {
         }
     public void OnTriggerEnter(Collider Col)
         {
-        Debug.Log(Col);
          if (!Col.CompareTag("SpawnArea"))
             {
             Destroy(gameObject); 

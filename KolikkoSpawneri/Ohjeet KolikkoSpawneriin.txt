@@ -1,0 +1,4 @@
+Lis‰‰ Tehdaankolikoita koodi fps controlleriin ja coin kolikkoon. 
+Kolikon pit‰‰ olla prefab koska se instantioidaan. 
+Kolikolle laitetaan rigibody: gravity p‰‰lle, lukitaan x ja z arvot rotatiosta ja positionista. 
+Halutuille kolikon spawnaus alueille laitetaan tag SpawnArea.
